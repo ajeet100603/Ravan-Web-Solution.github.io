@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Affordable Website Development Packages & Pricing | Ravan Web Solutions</title>
+  <meta name="description" content="Transparent website development prices in Jaipur & Rajasthan starting from ₹2,999. Basic, Business, and E-commerce plans with direct developer support.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <!-- Page Header -->
+  <header class="page-header text-center">
+    <div class="container">
+      <span class="badge bg-primary px-3 py-2 rounded-pill mb-2">TRANSPARENT RATES</span>
+      <h1 class="fw-bold">Affordable Website Pricing Plans</h1>
+      <p class="lead text-muted max-w-700 mx-auto">
+        High quality, modern websites tailored to your budget. No hidden fees — clear starting prices with full ownership and direct developer support.
+      </p>
+    </div>
+  </header>
+
+  <!-- Pricing Cards -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <!-- Basic Plan -->
+        <div class="col-md-6 col-lg-4">
+          <div class="pricing-card text-center reveal-on-scroll">
+            <h5 class="fw-bold">Basic Website</h5>
+            <div class="price my-2">₹2,999<small>+</small></div>
+            <p class="text-muted small">Ideal for Students & Individuals</p>
+            <ul>
+              <li>1–5 Pages</li>
+              <li>Responsive Mobile Design</li>
+              <li>WhatsApp Chat Button</li>
+              <li>Lead Contact Form</li>
+              <li>Basic On-Page SEO</li>
+              <li>7 Days Delivery Time</li>
+            </ul>
+            <button type="button" class="btn btn-outline-primary w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#quoteModal">Choose Basic Plan</button>
+          </div>
+        </div>
+
+        <!-- Business Plan -->
+        <div class="col-md-6 col-lg-4">
+          <div class="pricing-card featured text-center reveal-zoom">
+            <span class="badge bg-primary mb-2">Most Popular</span>
+            <h5 class="fw-bold">Business Website</h5>
+            <div class="price my-2">₹5,999<small>+</small></div>
+            <p class="text-muted small">Ideal for Shops, Schools & Companies</p>
+            <ul>
+              <li>5–10 Custom Pages</li>
+              <li>Modern High-Impact UI</li>
+              <li>WhatsApp Integration</li>
+              <li>Contact Form + Email Alert</li>
+              <li>Google Maps Embed</li>
+              <li>Advanced SEO Ready</li>
+              <li>10–15 Days Delivery</li>
+            </ul>
+            <button type="button" class="btn btn-primary w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#quoteModal">Choose Business Plan</button>
+          </div>
+        </div>
+
+        <!-- E-Commerce Plan -->
+        <div class="col-md-6 col-lg-4">
+          <div class="pricing-card text-center reveal-on-scroll delay-200">
+            <h5 class="fw-bold">E-Commerce Store</h5>
+            <div class="price my-2">₹9,999<small>+</small></div>
+            <p class="text-muted small">Ideal for Online Shops & Brands</p>
+            <ul>
+              <li>Unlimited Product Management</li>
+              <li>Interactive Shopping Cart</li>
+              <li>Order Management Admin Panel</li>
+              <li>Payment Gateway Integration</li>
+              <li>Mobile-First Responsive UI</li>
+              <li>Customer Accounts & Checkout</li>
+            </ul>
+            <button type="button" class="btn btn-outline-primary w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#quoteModal">Choose E-Commerce</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Price Calculator Section -->
+  <section class="py-5 bg-light-section border-top border-bottom">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card p-4 shadow-sm border-0 rounded-4 reveal-on-scroll">
+            <div class="text-center mb-4">
+              <span class="badge bg-success px-3 py-2 rounded-pill mb-2">INSTANT ESTIMATOR</span>
+              <h3 class="fw-bold">Calculate Your Estimated Website Cost</h3>
+              <p class="text-muted small">Select your requirements below for an instant price calculation.</p>
+            </div>
+            
+            <form id="calcForm">
+              <div class="mb-3">
+                <label class="form-label fw-bold">1. Select Website Type</label>
+                <select class="form-select" id="calcType">
+                  <option value="2999" data-name="Basic Website">Basic Website (₹2,999)</option>
+                  <option value="5999" data-name="Business Website" selected>Business Website (₹5,999)</option>
+                  <option value="9999" data-name="E-Commerce Website">E-Commerce Website (₹9,999)</option>
+                  <option value="4999" data-name="Landing Page">High Converting Landing Page (₹4,999)</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label fw-bold">2. Additional Features (Optional)</label>
+                <div class="form-check mb-2">
+                  <input class="form-check-input calc-addon" type="checkbox" value="1000" id="addSeo">
+                  <label class="form-check-label" for="addSeo">Advanced SEO & Speed Optimization (+₹1,000)</label>
+                </div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input calc-addon" type="checkbox" value="1500" id="addBlog">
+                  <label class="form-check-label" for="addBlog">Blog Section Integration (+₹1,500)</label>
+                </div>
+                <div class="form-check mb-2">
+                  <input class="form-check-input calc-addon" type="checkbox" value="2000" id="addDomain">
+                  <label class="form-check-label" for="addDomain">Domain (.com/.in) + High Speed Hosting 1 Year (+₹2,000)</label>
+                </div>
+              </div>
+
+              <div class="p-3 bg-white border rounded-3 d-flex justify-content-between align-items-center mb-3 flex-wrap gap-3">
+                <div>
+                  <div class="text-muted small fw-bold">Estimated Starting Price:</div>
+                  <div class="fs-2 fw-bold text-primary" id="calcTotalDisplay">₹5,999</div>
+                </div>
+                <button type="button" class="btn btn-whatsapp btn-lg rounded-pill" id="calcWhatsAppBtn">
+                  💬 Send Quote to WhatsApp
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Payment Process -->
+  <section class="py-5">
+    <div class="container text-center reveal-on-scroll">
+      <h2 class="fw-bold mb-3">💳 Transparent Payment Process</h2>
+      <p class="text-muted max-w-700 mx-auto mb-4">We maintain complete clarity and security throughout your website development project.</p>
+      
+      <div class="payment-flow justify-content-center">
+        <div class="payment-step">01 — 30–50% Advance</div>
+        <div class="payment-arrow">➔</div>
+        <div class="payment-step">02 — Development</div>
+        <div class="payment-arrow">➔</div>
+        <div class="payment-step">03 — Demo Review</div>
+        <div class="payment-arrow">➔</div>
+        <div class="payment-step">04 — Final Payment</div>
+        <div class="payment-arrow">➔</div>
+        <div class="payment-step">05 — Live Website</div>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <div id="site-modals"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/config.js"></script>
+  <script src="../js/schema.js"></script>
+  <script src="../js/portfolio-data.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/quote-form.js"></script>
+  <script src="../js/whatsapp-float.js"></script>
+  <script>
+    function updateCalculator() {
+      const typeVal = parseInt(document.getElementById("calcType").value) || 0;
+      let addonSum = 0;
+      document.querySelectorAll(".calc-addon:checked").forEach(cb => {
+        addonSum += parseInt(cb.value) || 0;
+      });
+      const total = typeVal + addonSum;
+      document.getElementById("calcTotalDisplay").innerText = "₹" + total.toLocaleString();
+
+      const selectedOption = document.getElementById("calcType").options[document.getElementById("calcType").selectedIndex];
+      const typeName = selectedOption.getAttribute("data-name");
+      const msg = `Hi Ravan Web Solutions, I calculated a website cost estimate:\n- Type: ${typeName}\n- Estimated Price: ₹${total.toLocaleString()}\nI would like to get started.`;
+      document.getElementById("calcWhatsAppBtn").onclick = function() {
+        window.open(getWhatsAppLink(msg), "_blank");
+      };
+    }
+
+    document.getElementById("calcType").addEventListener("change", updateCalculator);
+    document.querySelectorAll(".calc-addon").forEach(cb => cb.addEventListener("change", updateCalculator));
+    updateCalculator();
+
+    injectSchema([
+      getOrganizationSchema("/pricing/index.html"),
+      getBreadcrumbSchema([
+        { name: "Home", item: "/index.html" },
+        { name: "Pricing", item: "/pricing/index.html" }
+      ])
+    ]);
+  </script>
+</body>
+</html>
